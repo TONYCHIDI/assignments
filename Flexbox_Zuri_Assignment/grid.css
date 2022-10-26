@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Lexend Deca;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation-content img {
+    width: 160px;
+}
+
+.navigation-content {
+    height: 45px;
+    padding: 40px 100px;
+    background-color: #004241;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-content .navigation-img {
+    display: flex;
+    justify-content: start;
+}
+
+.navigation-content .navigation-bar,
+.navigation-content .navigation-bar a {
+    color: #f2f2f2;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.grid-main {
+    width: 60%;
+    height: fit-content;
+    display: grid;
+    grid-template-areas:
+        'a a a a b b'
+        'a a a a b b'
+        'c c c d d d'
+        'c c c e e e'
+    ;
+    gap: 10px;
+    grid-auto-rows: 80px;
+    background-color: #000;
+    padding: 60px;
+}
+
+.item-red {
+    background-color: #ff0000;
+    grid-area: a;
+}
+
+.item-yellow {
+    background-color: #e1cc15;
+    grid-area: b;
+}
+
+.item-green {
+    background-color: #085c13;
+    grid-area: c;
+}
+
+.item-skyblue-1 {
+    background-color: #46a3c8;
+    grid-area: d;
+}
+
+.item-skyblue-2 {
+    background-color: #46a3c8;
+    grid-area: e;
+}
+
+.items {
+    padding: 5px;
+    text-align: center;
+}
+
+@media (max-width: 768px) and (min-width: 300px) {
+    .navigation-content {
+        height: 45px;
+        padding: 30px;
+    }
+
+    .navigation-content img {
+        width: 85px;
+    }
+
+    .navigation-content .navigation-bar,
+    .navigation-content .navigation-bar a {
+        font-size: 9px;
+        margin-left: 20px;
+        font-weight: 300;
+        cursor:pointer;
+    }
+}
