@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="We are open and available for your web services" />
+  <meta name="keywords" content="html5, frontend, marketing, multipurpose, developer, website" />
+  <meta content="NaccyWorld" name="author" />
+  <script src="https://kit.fontawesome.com/34faa42f11.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italianno&family=Nunito:wght@200;300;400;500;600;700;800;900&family=The+Nautigal:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <meta name=”robots” content="index, follow">
+  <title>Anthony Nnamchi | Portfolio</title>
+  <link rel="shortcut icon" href="assets/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header id="nav-bar" class="navigation-bar">
+      <nav class="navigation-menu">
+        <a href="/"><img src="assets/my-logo.png" alt="Logo"></a>
+        <div id="ham-button" class="hamburger-button" onclick="hamburgerMenu()">
+          <i id="ham-icon" class="fas fa-bars"></i>
+        </div>
+        <div id="right-nav" class="menu-items menu-overlay">
+          <ul class="nav-links overlay-content">
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-social-media">
+          <a href="https://web.facebook.com/tonij.nnamchi"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/NnamchiC"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/naccyworld/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+      <!-- My Contacts -->
+      <section class="contact" id="contact">
+        <div class="contact-container">
+          <div class="contact-intro">
+            <h2>Contact Me</h2>
+            <p>Your can contact us through any one of our phone numbers, email addresses, address or drop
+              your complaints by filling the form.</p>
+          </div>
+          <div class="contact-contacts">
+            <div class="contkt"><a href="tel:+2347030852400">
+                <i class="fa-solid fa-phone-volume"></i>
+                <h4>Phone</h4>
+                <p>Contact us through the following phone numbers:</p>
+                <em>+234 703 085 2400, +234 701 713 1822</em>
+              </a>
+            </div>
+            <div class="contkt">
+              <i class="fa-solid fa-envelope-circle-check"></i>
+              <h4>Email</h4>
+              <p>Contact us through the following addresses:</p>
+              <em>nnamchitony@gmail.com, nnamchianthony@yahoo.com</em>
+            </div>
+            <div class="contkt">
+              <i class="fa-solid fa-map-location-dot"></i>
+              <h4>Location/Address</h4>
+              <p>You can find us through the following address:</p>
+              <em>No. 4 Churchill Enahoro Street, Gbazango Extension, kubwa, Abuja, FCT - Nigeria</em>
+            </div>
+          </div>
+          <div class="form">
+            <form action="mailto:nnamchitony@gmail.com" method="post">
+              <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Complaints..." required></textarea>
+              </div>
+
+              <input class="btn-submit" type="submit" name="Send" value="Send">
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-media" id="social-media">
+        <div class="social-container">
+          <p>In coding I have found my passion. Feel free to reach us through any of my social media handles.
+          </p>
+          <div class="social-media-div">
+            <a href="https://web.facebook.com/tonij.nnamchi"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/NnamchiC"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/naccyworld/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anthony-nnamchi-680663120/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="copyright">
+          <p>&copy; NaccyWorld
+            <script>document.write(new Date().getFullYear())</script>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+  <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
